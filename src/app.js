@@ -32,5 +32,6 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, async () => {
   console.log(`Server running at http://localhost:${PORT}`);
   console.log("Initializing Database Connection...");
+  console.log("Endpoints available at /api/v1");
   // Simulated DB init
 });
