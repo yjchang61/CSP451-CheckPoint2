@@ -6,6 +6,11 @@ This repository is a **starter template** for practicing:
 - Intentional merge conflicts + manual resolution
 - Clean history using **Squash and merge**
 
+## Features Implemented
+- **User Authentication**: Login page setup and routing.
+- **Database Connection**: Basic logger and simulation for database initialization.
+- **API Endpoints**: `/api/v1` structure configured.
+
 ## Quick Start
 
 ```bash
