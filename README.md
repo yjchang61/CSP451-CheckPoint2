@@ -23,6 +23,19 @@ Open: http://localhost:3000
 ## Structure
 
 - `src/app.js` — Express server entry
+
+## Features
+
+### Authentication
+The application allows users to log in securely.
+- **Login Page**: Located at `/login`.
+- **Validation**:
+  - Email format checks.
+  - Password strength requirements (min 8 chars, 1 number).
+  - Real-time feedback and error messages.
+- **Architecture**:
+  - `public/login.js`: Handles form state and validation.
+  - `public/auth-utils.js`: Shared utility functions.
 - `src/routes/` — route modules
 - `src/controllers/` — controller functions
 - `src/services/` — reusable services (auth helpers, etc.)
